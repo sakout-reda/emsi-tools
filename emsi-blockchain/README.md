@@ -1,1 +1,3 @@
-**0x00. Blockchain - Crypto**
+# Holberton Blockchain
+
+A blockchain made in c for the holberton plateform

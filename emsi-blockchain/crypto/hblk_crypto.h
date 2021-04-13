@@ -1,6 +1,6 @@
 #ifndef HBLK_CRYPTO_H
 #define HBLK_CRYPTO_H
-#define SHA256_DIGEST_LENGTH 64
+
 #include <openssl/ec.h>
 #include <openssl/evp.h>
 #include <openssl/pem.h>
