@@ -21,13 +21,11 @@ int main(void)
 	block = llist_get_head(blockchain->chain);
 
 	block = block_create(block, (int8_t *)"Holberton", 9);
-    block->info.timestamp = 1536715352;
 	llist_add_node(blockchain->chain, block, ADD_NODE_REAR);
 	_blockchain_print(blockchain);
 
 	block_hash(block, block->hash);
 	block = block_create(block, (int8_t *)"School", 6);
-    block->info.timestamp = 1536715352;
 	llist_add_node(blockchain->chain, block, ADD_NODE_REAR);
 	_blockchain_print(blockchain);
 
